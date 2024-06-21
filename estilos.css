@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to right, #e91e63, #9b59b6); /* Pink to purple gradient */
+    color: white;
+  }
+  
+  bootstrap.css{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .profile-img {
+    width: 420px;
+    height: 420px;
+    margin-left: 30px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .info {
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px; /* Reduced font size for better readability */
+    text-align: center;
+  }
+  
+  .info ul {
+    text-align: left;
+    display: inline-block;
+    font-size: 20px; /* Reduced font size for consistency */
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .buttons button {
+    font-size: 18px; /* Reduced font size for buttons */
+    padding: 10px 20px;
+    margin: 5px;
+    background: linear-gradient(to right, #ffc0cb, #e8b0e7); /* Lighter pink to purple gradient */
+    border: none;
+    color: black;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #e8b0e7, #ffc0cb); /* Reverse gradient on hover */
+  }
+
+/* Estilos personalizados para la barra de navegación */
+.navbar-custom {
+    background-color: #000000; /* Color negro */
+}
+
+.navbar-brand {
+    margin-left: 15px; /* Para no estar tan pegado a la izquierda */
+}
+
+.nav-link {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #ff1493; /* Color rosa contrastante */
+    color: white; /* Para que el texto se vea bien sobre el fondo rosa */
+}
+
+.text-white {
+    color: white;
+}
